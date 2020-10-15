@@ -109,13 +109,6 @@ public class SelectedCourseServlet extends HttpServlet {
 		Integer currentPage = request.getParameter("page") == null ? 1 : Integer.parseInt(request.getParameter("page"));
 		Integer pageSize = request.getParameter("rows") == null ? 999 : Integer.parseInt(request.getParameter("rows"));
 		SelectedCourse selectedCourse = new SelectedCourse();
-		//获取当前登录用户类型
-		int userType = Integer.parseInt(request.getSession().getAttribute("userType").toString());
-		if(userType == 2){
-			//如果是学生，只能查看自己的信息
-			Student currentUser = (Student)request.getSession().getAttribute("user");
-			studentId = currentUser.getId();
-		}
 		selectedCourse.setCourseId(courseId);
 		selectedCourse.setStudentId(studentId);
 		SelectedCourseDao selectedCourseDao = new SelectedCourseDao();

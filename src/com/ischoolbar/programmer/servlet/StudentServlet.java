@@ -98,16 +98,9 @@ public class StudentServlet extends HttpServlet {
 		Integer currentPage = request.getParameter("page") == null ? 1 : Integer.parseInt(request.getParameter("page"));
 		Integer pageSize = request.getParameter("rows") == null ? 999 : Integer.parseInt(request.getParameter("rows"));
 		Integer clazz = request.getParameter("clazzid") == null ? 0 : Integer.parseInt(request.getParameter("clazzid"));
-		//获取当前登录用户类型
-		int userType = Integer.parseInt(request.getSession().getAttribute("userType").toString());
 		Student student = new Student();
 		student.setName(name);
 		student.setClazzId(clazz);
-		if(userType == 2){
-			//如果是学生，只能查看自己的信息
-			Student currentUser = (Student)request.getSession().getAttribute("user");
-			student.setId(currentUser.getId());
-		}
 		StudentDao studentDao = new StudentDao();
 		List<Student> clazzList = studentDao.getStudentList(student, new Page(currentPage, pageSize));
 		int total = studentDao.getStudentListTotal(student);

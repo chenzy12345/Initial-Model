@@ -57,21 +57,15 @@
 				
 			});
 		});
-		
-		//设置复选框
-		$(".skin-minimal input").iCheck({
-			radioClass: 'iradio-blue',
-			increaseArea: '25%'
-		});
 	})
 </script> 
-<title>登录|学生选课管理系统</title>
-<meta name="keywords" content="学生选课管理系统">
+<title>登录|常熟市智慧农业生产经营主体综合管理服务平台</title>
+<meta name="keywords" content="常熟市智慧农业生产经营主体综合管理服务平台">
 </head>
 <body>
 
 <div class="header" style="padding: 0;">
-	<h2 style="color: white; width: 400px; height: 60px; line-height: 60px; margin: 0 0 0 30px; padding: 0;">学生选课管理系统</h2>
+	<h2 style="color: white; width: 700px; height: 60px; line-height: 60px; margin: 0 0 0 30px; padding: 0;">常熟市智慧农业生产经营主体综合管理服务平台</h2>
 </div>
 <div class="loginWraper">
   <div id="loginform" class="loginBox">
@@ -79,13 +73,13 @@
       <div class="row cl">
         <label class="form-label col-3"><i class="Hui-iconfont">&#xe60d;</i></label>
         <div class="formControls col-8">
-          <input id="" name="account" type="text" placeholder="账户" class="input-text size-L">
+          <input id="a" name="account" type="text" placeholder="账户" class="input-text size-L">
         </div>
       </div>
       <div class="row cl">
         <label class="form-label col-3"><i class="Hui-iconfont">&#xe60e;</i></label>
         <div class="formControls col-8">
-          <input id="" name="password" type="password" placeholder="密码" class="input-text size-L">
+          <input id="p" name="password" type="password" placeholder="密码" class="input-text size-L">
         </div>
       </div>
       <div class="row cl">
@@ -93,21 +87,6 @@
           <input class="input-text size-L" name="vcode" type="text" placeholder="请输入验证码" style="width: 200px;">
           <img title="点击图片切换验证码" id="vcodeImg" src="CpachaServlet?method=loginCapcha"></div>
       </div>
-      
-      <div class="mt-20 skin-minimal" style="text-align: center;">
-		<div class="radio-box">
-			<input type="radio" id="radio-2" name="type" checked value="2" />
-			<label for="radio-1">学生</label>
-		</div>
-		<div class="radio-box">
-			<input type="radio" id="radio-3" name="type" value="3" />
-			<label for="radio-2">老师</label>
-		</div>
-		<div class="radio-box">
-			<input type="radio" id="radio-1" name="type" value="1" />
-			<label for="radio-3">管理员</label>
-		</div>
-	</div>
       
       <div class="row">
         <div class="formControls col-8 col-offset-3">
