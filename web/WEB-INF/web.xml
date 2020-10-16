@@ -46,6 +46,7 @@
         <url-pattern>/ClazzServlet</url-pattern>
         <url-pattern>/CourseServlet</url-pattern>
         <url-pattern>/SelectedCourseServlet</url-pattern>
+        <url-pattern>/CompanyServlet</url-pattern>
     </filter-mapping>
 
     <servlet>
@@ -56,6 +57,16 @@
     <servlet-mapping>
         <servlet-name>SystemServlet</servlet-name>
         <url-pattern>/SystemServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <description>农业企业公司管理</description>
+        <servlet-name>CompanyServlet</servlet-name>
+        <servlet-class>com.ischoolbar.programmer.servlet.CompanyServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CompanyServlet</servlet-name>
+        <url-pattern>/CompanyServlet</url-pattern>
     </servlet-mapping>
 
     <servlet>
