@@ -16,33 +16,31 @@
 	<script type="text/javascript" src='easyui/js/outlook2.js'> </script>
     <script type="text/javascript">
 	 var _menus = {"menus":[
-						
+                         {"menuid":"1","icon":"","menuname":"农业企业管理",
+                             "menus":[
+                                 {"menuid":"30","menuname":"常熟市农业企业列表","icon":"icon-user-student","url":"CompanyServlet?method=toCompanyListView"},
+                             ]
+                         },
 						{"menuid":"2","icon":"","menuname":"学生信息管理",
 							"menus":[
 									{"menuid":"21","menuname":"学生列表","icon":"icon-user-student","url":"StudentServlet?method=toStudentListView"},
 								]
 						},
-						<c:if test="${userType == 1 || userType == 3}">
 						{"menuid":"4","icon":"","menuname":"班级信息管理",
 							"menus":[
 									{"menuid":"42","menuname":"班级列表","icon":"icon-house","url":"ClazzServlet?method=toClazzListView"}
 								]
 						},
-						</c:if>
-						<c:if test="${userType == 1 || userType == 3}">
 						{"menuid":"3","icon":"","menuname":"教师信息管理",
 							"menus":[
 									{"menuid":"31","menuname":"教师列表","icon":"icon-user-teacher","url":"TeacherServlet?method=toTeacherListView"},
 								]
 						},
-						</c:if>
-						<c:if test="${userType == 1 || userType == 3}">
 						{"menuid":"6","icon":"","menuname":"课程信息管理",
 							"menus":[
 									{"menuid":"61","menuname":"课程列表","icon":"icon-book-open","url":"CourseServlet?method=toCourseListView"},
 								]
 						},
-						</c:if>
 						{"menuid":"7","icon":"","menuname":"选课信息管理",
 							"menus":[
 									{"menuid":"71","menuname":"选课列表","icon":"icon-book-open","url":"SelectedCourseServlet?method=toSelectedCourseListView"},
