@@ -4,7 +4,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>学生列表</title>
+	<title>常熟市农业企业列表</title>
 	<link rel="stylesheet" type="text/css" href="easyui/themes/default/easyui.css">
 	<link rel="stylesheet" type="text/css" href="easyui/themes/icon.css">
 	<link rel="stylesheet" type="text/css" href="easyui/css/demo.css">
@@ -15,7 +15,7 @@
 	$(function() {	
 		//datagrid初始化 
 	    $('#dataList').datagrid({ 
-	        title:'学生列表', 
+	        title:'常熟市农业企业列表',
 	        iconCls:'icon-more',//图标 
 	        border: true, 
 	        collapsible:false,//是否可折叠的 
@@ -61,7 +61,8 @@
 	        		preLoadClazz();
 	        	}
 	        }
-	    }); 
+	    });
+	    console.log($('#dataList'));
 	    //设置分页控件 
 	    var p = $('#dataList').datagrid('getPager'); 
 	    $(p).pagination({ 
