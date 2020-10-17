@@ -2,6 +2,8 @@ package com.ischoolbar.programmer.servlet;
 
 import com.ischoolbar.programmer.dao.CompanyDao;
 import com.ischoolbar.programmer.model.Company;
+import com.ischoolbar.programmer.model.Page;
+import net.sf.json.JSONArray;
 import net.sf.json.JSONObject;
 
 import javax.servlet.ServletException;
@@ -10,6 +12,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -57,8 +60,8 @@ public class CompanyServlet extends HttpServlet {
     private void editCompany(HttpServletRequest request,
                              HttpServletResponse response) {
         // TODO Auto-generated method stub
+        Integer id = Integer.parseInt(request.getParameter("id"));
         String name = request.getParameter("name");
-        int id = Integer.parseInt(request.getParameter("id"));
         String manager = request.getParameter("manager");
         String tele = request.getParameter("tele");
         String email = request.getParameter("email");
@@ -69,8 +72,8 @@ public class CompanyServlet extends HttpServlet {
         String endDate = request.getParameter("endDate");
 
         Company company = new Company();
-        company.setName(name);
         company.setId(id);
+        company.setName(name);
         company.setManager(manager);
         company.setTele(tele);
         company.setEmail(email);
@@ -100,14 +103,20 @@ public class CompanyServlet extends HttpServlet {
         Company company = new Company();
         company.setName(name);
         CompanyDao companyDao = new CompanyDao();
+        List<Company> companyList = companyDao.getCompanyList(company,new Page(currentPage,pageSize));
         int total = companyDao.getCompanyListTotal(company);
         companyDao.closeCon();
         response.setCharacterEncoding("UTF-8");
         Map<String, Object> ret = new HashMap<String, Object>();
         ret.put("total", total);
+        ret.put("rows",companyList);
         try {
             String from = request.getParameter("from");
+            if("combox".equals(from)){
+                response.getWriter().write(JSONArray.fromObject(companyList).toString());
+            }else{
                 response.getWriter().write(JSONObject.fromObject(ret).toString());
+            }
         } catch (IOException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();

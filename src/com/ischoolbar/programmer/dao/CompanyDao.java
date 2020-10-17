@@ -101,6 +101,8 @@ public class CompanyDao extends BaseDao{
                 com.setAddress(resultSet.getString("address"));
                 com.setIntro(resultSet.getString("intro"));
                 com.setMoney(resultSet.getDouble("money"));
+                com.setDate(resultSet.getString("date"));
+                com.setEndData(resultSet.getString("endData"));
                 ret.add(com);
             }
         } catch (SQLException e) {
