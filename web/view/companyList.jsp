@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="easyui/css/demo.css">
     <script type="text/javascript" src="easyui/jquery.min.js"></script>
     <script type="text/javascript" src="easyui/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="easyui/easyui-lang-zh_CN.js"></script>
     <script type="text/javascript" src="easyui/js/validateExtends.js"></script>
     <script type="text/javascript">
         $(function() {
@@ -76,20 +77,16 @@
                 if(selectLength == 0){
                     $.messager.alert("消息提醒", "请选择数据进行删除!", "warning");
                 } else{
-                    var numbers = [];
-                    $(selectRows).each(function(i, row){
-                        numbers[i] = row.sn;
-                    });
                     var ids = [];
                     $(selectRows).each(function(i, row){
                         ids[i] = row.id;
                     });
-                    $.messager.confirm("消息提醒", "将删除与学生相关的所有数据(包括成绩)，确认继续？", function(r){
+                    $.messager.confirm("消息提醒", "将删除与企业相关的所有数据，确认继续？", function(r){
                         if(r){
                             $.ajax({
                                 type: "post",
-                                url: "StudentServlet?method=DeleteStudent",
-                                data: {sns: numbers, ids: ids},
+                                url: "CompanyServlet?method=DeleteCompany",
+                                data: {ids: ids},
                                 success: function(msg){
                                     if(msg == "success"){
                                         $.messager.alert("消息提醒","删除成功!","info");
@@ -107,9 +104,9 @@
                 }
             });
 
-            //设置添加学生窗口
+            //设置添加农业企业窗口
             $("#addDialog").dialog({
-                title: "添加学生",
+                title: "添加农业企业",
                 width: 650,
                 height: 460,
                 iconCls: "icon-add",
@@ -130,10 +127,9 @@
                                 $.messager.alert("消息提醒","请检查你输入的数据!","warning");
                                 return;
                             } else{
-                                var clazzid = $("#add_clazzList").combobox("getValue");
                                 $.ajax({
                                     type: "post",
-                                    url: "StudentServlet?method=AddStudent",
+                                    url: "CompanyServlet?method=AddCompany",
                                     data: $("#addForm").serialize(),
                                     success: function(msg){
                                         if(msg == "success"){
@@ -141,18 +137,19 @@
                                             //关闭窗口
                                             $("#addDialog").dialog("close");
                                             //清空原表格数据
-                                            $("#add_number").textbox('setValue', "");
+                                            //设置值
                                             $("#add_name").textbox('setValue', "");
-                                            $("#add_sex").textbox('setValue', "男");
-                                            $("#add_phone").textbox('setValue', "");
-                                            $("#add_qq").textbox('setValue', "");
+                                            $("#add_manager").textbox('setValue', "");
+                                            $("#add_tele").textbox('setValue', "");
+                                            $("#add_email").textbox('setValue', "");
+                                            $("#add_address").textbox('setValue', "");
+                                            $("#add_intro").textbox('setValue', "");
+                                            $("#add_money").textbox('setValue', "");
+                                            $("#add_date").datebox('setValue', "");
+                                            $("#add_endDate").datebox('setValue', "");
 
                                             //重新刷新页面数据
-                                            $('#dataList').datagrid("options").queryParams = {clazzid: clazzid};
                                             $('#dataList').datagrid("reload");
-                                            setTimeout(function(){
-                                                $("#clazzList").combobox('setValue', clazzid);
-                                            }, 100);
 
                                         } else{
                                             $.messager.alert("消息提醒","添加失败!","warning");
@@ -168,19 +165,21 @@
                         plain: true,
                         iconCls:'icon-reload',
                         handler:function(){
-                            $("#add_number").textbox('setValue', "");
                             $("#add_name").textbox('setValue', "");
-                            $("#add_phone").textbox('setValue', "");
-                            $("#add_qq").textbox('setValue', "");
-                            //重新加载年级
-                            $("#add_gradeList").combobox("clear");
-                            $("#add_gradeList").combobox("reload");
+                            $("#add_manager").textbox('setValue', "");
+                            $("#add_tele").textbox('setValue', "");
+                            $("#add_email").textbox('setValue', "");
+                            $("#add_address").textbox('setValue', "");
+                            $("#add_intro").textbox('setValue', "");
+                            $("#add_money").textbox('setValue', "");
+                            $("#add_date").datebox('setValue', "");
+                            $("#add_endDate").datebox('setValue', "");
                         }
                     },
                 ]
             });
 
-            //设置编辑学生窗口
+            //设置编辑农业企业窗口
             $("#editDialog").dialog({
                 title: "修改企业信息",
                 width: 650,
@@ -296,7 +295,7 @@
     </script>
 </head>
 <body>
-<!-- 学生列表 -->
+<!-- 农业企业列表 -->
 <table id="dataList" cellspacing="0" cellpadding="0"></table>
 
 <!-- 工具栏 -->
@@ -309,45 +308,55 @@
     </div>
 </div>
 
-<!-- 添加学生窗口 -->
+<!-- 添加农业企业窗口 -->
 <div id="addDialog" style="padding: 10px">
     <div style="float: right; margin: 20px 20px 0 0; width: 200px; border: 1px solid #EBF3FF" id="photo">
-        <img alt="照片" style="max-width: 200px; max-height: 400px;" title="照片" src="PhotoServlet?method=getPhoto" />
+        <img alt="照片" style="max-width: 200px; max-height: 400px;" title="照片" src="CompanyIconServet?method=getPhoto" />
     </div>
     <form id="addForm" method="post">
         <table cellpadding="8" >
-
             <tr>
-                <td>姓名:</td>
-                <td><input id="add_name" style="width: 200px; height: 30px;" class="easyui-textbox" type="text" name="name" data-options="required:true, missingMessage:'请填写姓名'" /></td>
+                <td>企业名称:</td>
+                <td><input id="add_name" style="width: 200px; height: 30px;" class="easyui-textbox" type="text" name="name" data-options="required:true, missingMessage:'请填写企业名称'" /></td>
             </tr>
             <tr>
-                <td>密码:</td>
-                <td>
-                    <input id="add_password"  class="easyui-textbox" style="width: 200px; height: 30px;" type="password" name="password" data-options="required:true, missingMessage:'请输入登录密码'" />
-                </td>
+                <td>企业懂事长:</td>
+                <td><input id="add_manager" style="width: 200px; height: 30px;" class="easyui-textbox" type="text" name="manager" data-options="required:true, missingMessage:'请填写企业董事'" /></td>
             </tr>
             <tr>
-                <td>性别:</td>
-                <td><select id="add_sex" class="easyui-combobox" data-options="editable: false, panelHeight: 50, width: 60, height: 30" name="sex"><option value="男">男</option><option value="女">女</option></select></td>
+                <td>企业电话:</td>
+                <td><input id="add_tele" style="width: 200px; height: 30px;" class="easyui-textbox" type="text" name="tele" validType="mobile" /></td>
             </tr>
             <tr>
-                <td>电话:</td>
-                <td><input id="add_phone" style="width: 200px; height: 30px;" class="easyui-textbox" type="text" name="mobile" validType="mobile" /></td>
+                <td>企业邮箱:</td>
+                <td><input id="add_email" style="width: 200px; height: 30px;" class="easyui-textbox" name="email" validType="email"/></td>
             </tr>
             <tr>
-                <td>QQ:</td>
-                <td><input id="add_qq" style="width: 200px; height: 30px;" class="easyui-textbox" type="text" name="qq" validType="number" /></td>
+                <td>企业地址:</td>
+                <td><input id="add_address" style="width: 200px; height: 30px;" class="easyui-textbox" name="address" data-options="required:true, missingMessage:'请输入企业地址'"/></td>
             </tr>
             <tr>
-                <td>班级:</td>
-                <td><input id="add_clazzList" style="width: 200px; height: 30px;" class="easyui-textbox" name="clazzid" /></td>
+                <td>企业简介:</td>
+                <td><input id="add_intro" style="width: 200px; height: 30px;" class="easyui-textbox" name="intro"/></td>
+            </tr>
+            <tr>
+                <td>企业注册资金:</td>
+                <td><input id="add_money" style="width: 200px; height: 30px;" class="easyui-textbox" name="money" data-options="required:true, missingMessage:'请输入企业注册资金'" validType="number"/></td>
+                <td>(万元)</td>
+            </tr>
+            <tr>
+                <td>企业成立时间:</td>
+                <td><input id="add_date" style="width: 200px; height: 30px;" class="easyui-datebox" name="date" required="required"/></td>
+            </tr>
+            <tr>
+                <td>企业营业期到期时间:</td>
+                <td><input id="add_endDate" style="width: 200px; height: 30px;" class="easyui-datebox" name="endDate"/></td>
             </tr>
         </table>
     </form>
 </div>
 
-<!-- 修改学生窗口 -->
+<!-- 修改农业企业窗口 -->
 <div id="editDialog" style="padding: 10px">
     <div style="float: right; margin: 20px 20px 0 0; width: 200px; border: 1px solid #EBF3FF">
         <img id="edit_photo" alt="照片" style="max-width: 200px; max-height: 400px;" title="照片" src="" />
@@ -394,7 +403,7 @@
                 <td><input id="edit_date" style="width: 200px; height: 30px;" class="easyui-datebox" name="date" required="required"/></td>
             </tr>
             <tr>
-                <td>企业营业期到期时间:</td>
+                <td>企业到期时间:</td>
                 <td><input id="edit_endDate" style="width: 200px; height: 30px;" class="easyui-datebox" name="endDate"/></td>
             </tr>
         </table>
