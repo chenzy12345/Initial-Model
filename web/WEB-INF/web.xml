@@ -69,6 +69,17 @@
         <url-pattern>/CompanyServlet</url-pattern>
     </servlet-mapping>
 
+
+    <servlet>
+        <description>农业企业公司商标图片管理</description>
+        <servlet-name>CompanyIconServet</servlet-name>
+        <servlet-class>com.ischoolbar.programmer.servlet.CompanyIconServet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CompanyIconServet</servlet-name>
+        <url-pattern>/CompanyIconServet</url-pattern>
+    </servlet-mapping>
+
     <servlet>
         <description>学生信息管理</description>
         <servlet-name>StudentServlet</servlet-name>

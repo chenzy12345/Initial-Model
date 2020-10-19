@@ -62,7 +62,6 @@
 	        	}
 	        }
 	    });
-	    console.log($('#dataList'));
 	    //设置分页控件 
 	    var p = $('#dataList').datagrid('getPager'); 
 	    $(p).pagination({ 
@@ -393,15 +392,15 @@
 			<a id="search-btn" href="javascript:;" class="easyui-linkbutton" data-options="iconCls:'icon-search',plain:true">搜索</a>
 		</div>
 	</div>
-	
+
 	<!-- 添加学生窗口 -->
-	<div id="addDialog" style="padding: 10px">  
+	<div id="addDialog" style="padding: 10px">
 		<div style="float: right; margin: 20px 20px 0 0; width: 200px; border: 1px solid #EBF3FF" id="photo">
 	    	<img alt="照片" style="max-width: 200px; max-height: 400px;" title="照片" src="PhotoServlet?method=getPhoto" />
-	    </div> 
+	    </div>
     	<form id="addForm" method="post">
 	    	<table cellpadding="8" >
-	    		
+
 	    		<tr>
 	    			<td>姓名:</td>
 	    			<td><input id="add_name" style="width: 200px; height: 30px;" class="easyui-textbox" type="text" name="name" data-options="required:true, missingMessage:'请填写姓名'" /></td>
@@ -431,7 +430,7 @@
 	    	</table>
 	    </form>
 	</div>
-	
+
 	<!-- 修改学生窗口 -->
 	<div id="editDialog" style="padding: 10px">
 		<div style="float: right; margin: 20px 20px 0 0; width: 200px; border: 1px solid #EBF3FF">
@@ -442,7 +441,7 @@
 		    	<input class="easyui-filebox" name="photo" data-options="prompt:'选择照片'" style="width:200px;">
 		    	<input id="upload-photo-btn" onClick="uploadPhoto()" class="easyui-linkbutton" style="width: 50px; height: 24px;" type="button" value="上传"/>
 		    </form>
-	    </div>   
+	    </div>
     	<form id="editForm" method="post">
 	    	<input type="hidden" name="id" id="edit-id">
 	    	<table cellpadding="8" >
