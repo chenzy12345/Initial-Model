@@ -69,7 +69,7 @@ public class CompanyServlet extends HttpServlet {
         String intro = request.getParameter("intro");
         double money = Double.parseDouble(request.getParameter("money"));
         String date = request.getParameter("date");
-        String endDate = request.getParameter("endDate");
+        String endDate = request.getParameter("endData");
 
         Company company = new Company();
         company.setId(id);
@@ -133,7 +133,7 @@ public class CompanyServlet extends HttpServlet {
         String intro = request.getParameter("intro");
         double money = Double.parseDouble(request.getParameter("money"));
         String date = request.getParameter("date");
-        String endDate = request.getParameter("endDate");
+        String endDate = request.getParameter("endData");
 
 
         Company company = new Company();

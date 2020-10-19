@@ -146,7 +146,7 @@
                                             $("#add_intro").textbox('setValue', "");
                                             $("#add_money").textbox('setValue', "");
                                             $("#add_date").datebox('setValue', "");
-                                            $("#add_endDate").datebox('setValue', "");
+                                            $("#add_endData").datebox('setValue', "");
 
                                             //重新刷新页面数据
                                             $('#dataList').datagrid("reload");
@@ -173,7 +173,7 @@
                             $("#add_intro").textbox('setValue', "");
                             $("#add_money").textbox('setValue', "");
                             $("#add_date").datebox('setValue', "");
-                            $("#add_endDate").datebox('setValue', "");
+                            $("#add_endData").datebox('setValue', "");
                         }
                     },
                 ]
@@ -240,7 +240,7 @@
                             $("#edit_intro").textbox('setValue', selectRow.intro);
                             $("#edit_money").textbox('setValue', selectRow.money);
                             $("#edit_date").datebox('setValue', selectRow.date);
-                            $("#edit_endDate").datebox('setValue', selectRow.endDate);
+                            $("#edit_endData").datebox('setValue', selectRow.endData);
                         }
                     }
                 ],
@@ -255,8 +255,8 @@
                     $("#edit_intro").textbox('setValue', selectRow.intro);
                     $("#edit_money").textbox('setValue', selectRow.money);
                     $("#edit_date").datebox('setValue', selectRow.date);
-                    $("#edit_endDate").datebox('setValue', selectRow.endDate);
-                    $("#edit_photo").attr("src", "CompanyIconServet?method=getPhoto&cid="+selectRow.id);
+                    $("#edit_endData").datebox('setValue', selectRow.endData);
+                    $("#edit_photo").attr("src", "CompanyIconServlet?method=getPhoto&cid="+selectRow.id);
                     $("#edit-id").val(selectRow.id);
                     $("#set-photo-id").val(selectRow.id);
 
@@ -289,7 +289,8 @@
                 var message =  $(window.frames["photo_target"].document).find("#message").text();
                 $.messager.alert("消息提醒",message,"info");
 
-                $("#edit_photo").attr("src", "CompanyIconServet?method=getPhoto&cid="+$("#set-photo-id").val());
+                console.log("回写图片")
+                $("#edit_photo").attr("src", "CompanyIconServlet?method=getPhoto&cid="+$("#set-photo-id").val());
             }, 1500)
         }
     </script>
@@ -311,7 +312,7 @@
 <!-- 添加农业企业窗口 -->
 <div id="addDialog" style="padding: 10px">
     <div style="float: right; margin: 20px 20px 0 0; width: 200px; border: 1px solid #EBF3FF" id="photo">
-        <img alt="照片" style="max-width: 200px; max-height: 400px;" title="照片" src="CompanyIconServet?method=getPhoto" />
+        <img alt="照片" style="max-width: 200px; max-height: 400px;" title="照片" src="CompanyIconServlet?method=getPhoto" />
     </div>
     <form id="addForm" method="post">
         <table cellpadding="8" >
@@ -350,7 +351,7 @@
             </tr>
             <tr>
                 <td>企业营业期到期时间:</td>
-                <td><input id="add_endDate" style="width: 200px; height: 30px;" class="easyui-datebox" name="endDate"/></td>
+                <td><input id="add_endData" style="width: 200px; height: 30px;" class="easyui-datebox" name="endData"/></td>
             </tr>
         </table>
     </form>
@@ -360,7 +361,7 @@
 <div id="editDialog" style="padding: 10px">
     <div style="float: right; margin: 20px 20px 0 0; width: 200px; border: 1px solid #EBF3FF">
         <img id="edit_photo" alt="照片" style="max-width: 200px; max-height: 400px;" title="照片" src="" />
-        <form id="uploadForm" method="post" enctype="multipart/form-data" action="CompanyIconServet?method=SetPhoto" target="photo_target">
+        <form id="uploadForm" method="post" enctype="multipart/form-data" action="CompanyIconServlet?method=SetPhoto" target="photo_target">
             <input type="hidden" name="cid" id="set-photo-id">
             <input class="easyui-filebox" name="photo" data-options="prompt:'选择照片'" style="width:200px;">
             <input id="upload-photo-btn" onClick="uploadPhoto()" class="easyui-linkbutton" style="width: 50px; height: 24px;" type="button" value="上传"/>
@@ -400,11 +401,11 @@
             </tr>
             <tr>
                 <td>企业成立时间:</td>
-                <td><input id="edit_date" style="width: 200px; height: 30px;" class="easyui-datebox" name="date" required="required"/></td>
+                <td><input id="edit_date" style="width: 200px; height: 30px;" class="easyui-datebox" name="date" required="required:true, missingMessage:'请输入企业注册时间'"/></td>
             </tr>
             <tr>
                 <td>企业到期时间:</td>
-                <td><input id="edit_endDate" style="width: 200px; height: 30px;" class="easyui-datebox" name="endDate"/></td>
+                <td><input id="edit_endData" style="width: 200px; height: 30px;" class="easyui-datebox" name="endData"/></td>
             </tr>
         </table>
     </form>

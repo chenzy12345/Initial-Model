@@ -1,0 +1,894 @@
+<changelist name="Uncommitted_changes_before_Checkout_at_2020_10_19_8_47_[Default_Changelist]" date="1603068464069" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2020_10_19_8_47_[Default_Changelist]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 2020/10/19 8:47 [Default Changelist]" />
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/WEB-INF/lib/commons-dbutils-1.6.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/icons/large_smartart.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/icons/book_previous.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/h-ui/images/Thumbs.db" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/icons/world.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/h-ui/lib/icheck/pink.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/WEB-INF/classes/com/ischoolbar/programmer/dao/StudentDao.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/h-ui/skin/default/acrossTab.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/WEB-INF/lib/commons-collections-3.2.1.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/icons/undo.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/WEB-INF/classes/com/ischoolbar/programmer/servlet/ClazzServlet.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/h-ui/lib/icheck/grey@2x.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/h-ui/images/totop.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/h-ui/images/gq/cn.gif" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/h-ui/images/gq/Thumbs.db" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/h-ui/images/icon_warning_s.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/default/images/messager_icons.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/WEB-INF/lib/commons-io-1.4.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/icons/tip.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/icons/house.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/icons/text_list_bullets.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/icons/set.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/WEB-INF/classes/com/ischoolbar/programmer/filter/LoginFilter.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/h-ui/images/loading_072.gif" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/WEB-INF/lib/jstl.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/h-ui/lib/icheck/minimal.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/icons/zoom_in.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/icons/world_add.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/h-ui/lib/icheck/yellow@2x.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/WEB-INF/classes/com/ischoolbar/programmer/dao/AdminDao.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/default/images/accordion_arrows.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/WEB-INF/lib/commons-fileupload-1.2.1.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/WEB-INF/classes/com/ischoolbar/programmer/dao/TeacherDao.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/icons/text_list_numbers.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/h-ui/lib/icheck/aero.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/icons/book_open_mark.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/icons/search.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/icons/mini_refresh.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/icons/ok.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/icons/sum.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/WEB-INF/lib/FilelLoad.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/WEB-INF/lib/jsp-api.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/WEB-INF/classes/com/ischoolbar/programmer/servlet/TeacherServlet.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/h-ui/skin/default/icon_arrow.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/h-ui/images/gq/us.gif" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/WEB-INF/classes/com/ischoolbar/programmer/util/CpachaUtil.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/WEB-INF/lib/commons-beanutils-1.8.0.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/icons/help.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/h-ui/lib/icheck/red@2x.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/icons/mini_edit.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/h-ui/skin/default/acrossTab-bg.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/h-ui/images/hamburger.gif" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/WEB-INF/lib/commons-logging.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/icons/chart_bar.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/icons/blank.gif" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/default/images/datagrid_icons.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/WEB-INF/classes/com/ischoolbar/programmer/servlet/SelectedCourseServlet.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/h-ui/images/loading.gif" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/h-ui/lib/Hui-iconfont/1.0.1/iconfont.eot" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/h-ui/lib/icheck/pink@2x.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/WEB-INF/lib/ezmorph-1.0.6.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/icons/basket_remove.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/WEB-INF/lib/commons-lang-2.5.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/icons/user_gray.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/h-ui/images/icon_right_s.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/icons/cut.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/WEB-INF/classes/com/ischoolbar/programmer/dao/ClazzDao.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/default/images/calendar_arrows.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/icons/pencil.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/default/images/blank.gif" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/WEB-INF/classes/com/ischoolbar/programmer/util/DbUtil.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/WEB-INF/classes/com/ischoolbar/programmer/servlet/CourseServlet.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/h-ui/images/acrossTab-2bak.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/h-ui/images/admin-loginform-bg.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/default/images/layout_arrows.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/icons/find.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/icons/vcard_edit.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/h-ui/images/user.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/icons/clear.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/h-ui/images/hamburger-retina.gif" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/h-ui/images/icon_jt2.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/WEB-INF/classes/com/ischoolbar/programmer/model/Page.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/WEB-INF/classes/com/ischoolbar/programmer/model/SelectedCourse.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/h-ui/lib/icheck/red.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/icons/large_chart.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/icons/edit_add.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/default/images/validatebox_warning.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/icons/note.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/default/images/searchbox_button.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/default/images/tabs_icons.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/icons/filter.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/h-ui/lib/icheck/aero@2x.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/WEB-INF/classes/com/ischoolbar/programmer/dao/BaseDao.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/icons/lock.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/icons/reload.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/icons/large_picture.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/h-ui/images/admin-login-bg.jpg" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/default/images/combo_arrow.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/default/images/datebox_arrow.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/default/images/slider_handle.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/WEB-INF/classes/com/ischoolbar/programmer/servlet/CpachaServlet.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/icons/2012080412263.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/icons/no.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/default/images/loading.gif" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/h-ui/lib/Hui-iconfont/1.0.1/iconfont.ttf" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/h-ui/images/acrossTab-close.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/WEB-INF/classes/com/ischoolbar/programmer/model/Admin.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/icons/asterisk_orange.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/icons/large_shapes.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/h-ui/images/acrossTab.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/WEB-INF/lib/servlet-api.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/h-ui/lib/icheck/green@2x.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/h-ui/lib/icheck/Thumbs.db" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/icons/user_add.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/h-ui/lib/icheck/purple@2x.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/icons/filesave.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/h-ui/lib/icheck/purple.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/WEB-INF/classes/com/ischoolbar/programmer/dao/CompanyDao.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/h-ui/lib/Hui-iconfont/1.0.1/iconfont.woff" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/default/images/menu_arrows.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/h-ui/images/sort_asc.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/WEB-INF/classes/com/ischoolbar/programmer/util/StringUtil.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/icons/edit_remove.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/h-ui/lib/icheck/blue.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/WEB-INF/classes/com/ischoolbar/programmer/dao/SelectedCourseDao.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/WEB-INF/lib/json-lib-2.3-jdk15.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/h-ui/images/icon_error_s.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/icons/folder_up.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/h-ui/images/sort_desc.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/icons/door_out.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/WEB-INF/classes/com/ischoolbar/programmer/model/Student.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/h-ui/images/gq/gj.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/WEB-INF/classes/com/ischoolbar/programmer/util/SnGenerateUtil.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/h-ui/images/icon-add.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/default/images/tree_icons.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/icons/print.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/WEB-INF/classes/com/ischoolbar/programmer/model/Teacher.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/icons/cancel.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/WEB-INF/classes/com/ischoolbar/programmer/model/Course.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/default/images/pagination_icons.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/h-ui/lib/icheck/minimal@2x.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/WEB-INF/classes/com/ischoolbar/programmer/util/DateFormatUtil.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/h-ui/skin/default/Thumbs.db" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/icons/mini_add.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.7-bin.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/h-ui/lib/icheck/yellow.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/h-ui/lib/icheck/grey.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/h-ui/lib/icheck/orange@2x.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/icons/world_night.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/WEB-INF/classes/com/ischoolbar/programmer/servlet/PhotoServlet.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/icons/large_clipart.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/WEB-INF/classes/com/ischoolbar/programmer/model/Clazz.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/WEB-INF/classes/com/ischoolbar/programmer/servlet/StudentServlet.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/icons/more.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/WEB-INF/classes/com/ischoolbar/programmer/servlet/CompanyServlet.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/icons/redo.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/file/logo.jpg" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/default/images/spinner_arrows.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/WEB-INF/lib/commons-logging-1.1.1.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/WEB-INF/lib/standard.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/WEB-INF/classes/com/ischoolbar/programmer/dao/CourseDao.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/icons/book_add.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/h-ui/images/sort_both.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/h-ui/lib/icheck/blue@2x.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/h-ui/images/acrossTab-bg.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/WEB-INF/classes/com/ischoolbar/programmer/model/Company.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/h-ui/lib/icheck/green.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/default/images/panel_tools.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/default/images/linkbutton_bg.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/WEB-INF/lib/jsonplugin-0.34.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/icons/user_red.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/WEB-INF/classes/com/ischoolbar/programmer/servlet/LoginServlet.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/WEB-INF/classes/com/ischoolbar/programmer/servlet/SystemServlet.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/icons/man.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/icons/back.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/easyui/themes/icons/pencil_add.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/WEB-INF/lib/commons-beanutils-1.8.3.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/artifacts/Management_System_war_exploded/h-ui/lib/icheck/orange.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+</changelist>
