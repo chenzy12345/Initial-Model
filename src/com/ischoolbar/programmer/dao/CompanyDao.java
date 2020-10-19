@@ -14,9 +14,9 @@ import java.util.List;
 public class CompanyDao extends BaseDao{
     public boolean addCompany(Company company){
         String sql = "insert into company values(null,'"+company.getName()+"','"+company.getManager()+"'";
-        sql += ",'" + company.getTele() + "'," + company.getEmail();
+        sql += ",'" + company.getTele() + "','" + company.getEmail() + "'";
         sql += ",'" + company.getAddress() + "','" + company.getIntro() + "'";
-        sql += ",'null','" + company.getMoney() + "'";
+        sql += ",'null'," + company.getMoney();
         sql += ",'" + company.getDate() + "','" + company.getEndData() + "')";
         return update(sql);
     }
@@ -70,6 +70,8 @@ public class CompanyDao extends BaseDao{
                 company.setAddress(resultSet.getString("address"));
                 company.setIntro(resultSet.getString("intro"));
                 company.setMoney(resultSet.getDouble("money"));
+                company.setDate(resultSet.getString("date"));
+                company.setEndData(resultSet.getString("endData"));
                 return company;
             }
         } catch (SQLException e) {

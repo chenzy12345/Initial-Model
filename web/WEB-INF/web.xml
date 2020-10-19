@@ -72,12 +72,12 @@
 
     <servlet>
         <description>农业企业公司商标图片管理</description>
-        <servlet-name>CompanyIconServet</servlet-name>
-        <servlet-class>com.ischoolbar.programmer.servlet.CompanyIconServet</servlet-class>
+        <servlet-name>CompanyIconServlet</servlet-name>
+        <servlet-class>com.ischoolbar.programmer.servlet.CompanyIconServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>CompanyIconServet</servlet-name>
-        <url-pattern>/CompanyIconServet</url-pattern>
+        <servlet-name>CompanyIconServlet</servlet-name>
+        <url-pattern>/CompanyIconServlet</url-pattern>
     </servlet-mapping>
 
     <servlet>
