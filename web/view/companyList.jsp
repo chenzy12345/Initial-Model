@@ -256,7 +256,7 @@
                     $("#edit_money").textbox('setValue', selectRow.money);
                     $("#edit_date").datebox('setValue', selectRow.date);
                     $("#edit_endData").datebox('setValue', selectRow.endData);
-                    $("#edit_photo").attr("src", "CompanyIconServlet?method=getPhoto&cid="+selectRow.id);
+                    $("#edit_photo").attr("src", "CompanyIconServlet?method=getPhoto&cid="+selectRow.id+"&t="+new Date().getTime());
                     $("#edit-id").val(selectRow.id);
                     $("#set-photo-id").val(selectRow.id);
 
@@ -290,7 +290,8 @@
                 $.messager.alert("消息提醒",message,"info");
 
                 console.log("回写图片")
-                $("#edit_photo").attr("src", "CompanyIconServlet?method=getPhoto&cid="+$("#set-photo-id").val());
+                $("#edit_photo").attr("src", "CompanyIconServlet?method=getPhoto&cid="+$("#set-photo-id").val()+"&t="+new Date().getTime());
+                console.log("回写完成")
             }, 1500)
         }
     </script>
