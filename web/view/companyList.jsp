@@ -39,11 +39,35 @@
                     {field:'address',title:'企业地址',width:150},
                     {field:'intro',title:'企业简介',width:150},
                     {field:'money',title:'企业注册资金',width:150},
+                    {field:'type',title:'企业类型',width:150},
                     {field:'date',title:'企业成立时间',width:150},
                     {field:'endData',title:'企业营业期到期时间',width:150}
                 ]],
-                toolbar: "#toolbar"
+                toolbar: "#toolbar",
+                onBeforeLoad : function (){
+                    console.log("预加载");
+                    try{
+                        $("#typeList").combobox("getData")
+                    }catch (err){
+                        preLoadType();
+                    }
+
+                }
             });
+
+
+            function preLoadType(){
+                $("#typeList").combobox({
+                    width: "150",
+                    height: "25",
+                    valueField: "id",
+                    textField: "type",
+                    multiple: false,
+                    editable: false,
+                    method: "post",
+                    url: "CompanyTypeServlet?method=TypeList&t="+new Date().getTime()+"&from=combox",
+                });
+            }
             //设置分页控件
             var p = $('#dataList').datagrid('getPager');
             $(p).pagination({
@@ -267,10 +291,12 @@
             //搜索按钮监听事件
             $("#search-btn").click(function(){
                 $('#dataList').datagrid('load',{
-                    name: $('#companyName').val()
+                    name: $("#companyName").val(),
+                    type: $("#typeList").combobox('getText')
                 });
             });
         });
+
 
         //上传图片按钮事件
         $("#upload-photo-btn").click(function(){
@@ -304,7 +330,8 @@
     <div style="float: left;"><a id="add" href="javascript:;" class="easyui-linkbutton" data-options="iconCls:'icon-add',plain:true">添加</a></div>
     <div style="float: left; margin-right: 10px;"><a id="edit" href="javascript:;" class="easyui-linkbutton" data-options="iconCls:'icon-edit',plain:true">修改</a></div>
     <div style="float: left; margin-right: 10px;"><a id="delete" href="javascript:;" class="easyui-linkbutton" data-options="iconCls:'icon-some-delete',plain:true">删除</a></div>
-    <div style="margin-top: 3px;">企业名称：<input id="companyName" class="easyui-textbox" name="companyName" />
+    <div style="float: left;margin-top:4px;">企业名称：<input id="companyName" class="easyui-textbox" name="companyName" /></div>
+    <div style="margin-left: 10px;margin-top:4px;" >企业类型：<input id="typeList" class="easyui-textbox" name="type" />
         <a id="search-btn" href="javascript:;" class="easyui-linkbutton" data-options="iconCls:'icon-search',plain:true">搜索</a>
     </div>
 </div>

@@ -39,8 +39,8 @@ public class Company {
     //企业注册资金
     private double money;
 
-    //企业服务类型  一对多
-    private List<String> types;
+    //企业服务类型
+    private String type;
 
     //企业成立时间
     private String date;
@@ -49,11 +49,10 @@ public class Company {
     private String endData;
 
     public Company() {
-        this.types = new ArrayList<>();
         this.mainPerson = new ArrayList<>();
     }
 
-    public Company(int id, String name, String manager, List<String> mainPerson, String tele, String email, String address, String intro, InputStream icon, double money, List<String> types, String date, String endData) {
+    public Company(int id, String name, String manager, List<String> mainPerson, String tele, String email, String address, String intro, InputStream icon, double money, String type, String date, String endData) {
         this.id = id;
         this.name = name;
         this.manager = manager;
@@ -64,7 +63,7 @@ public class Company {
         this.intro = intro;
         this.icon = icon;
         this.money = money;
-        this.types = types;
+        this.type = type;
         this.date = date;
         this.endData = endData;
     }
@@ -149,12 +148,12 @@ public class Company {
         this.money = money;
     }
 
-    public List<String> getType() {
-        return types;
+    public String getType() {
+        return type;
     }
 
-    public void setType(List<String> type) {
-        this.types = types;
+    public void setType(String type) {
+        this.type = type;
     }
 
     public String getDate() {
@@ -171,24 +170,5 @@ public class Company {
 
     public void setEndData(String endData) {
         this.endData = endData;
-    }
-
-    @Override
-    public String toString() {
-        return "Company{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", manager='" + manager + '\'' +
-                ", mainPerson=" + mainPerson +
-                ", tele='" + tele + '\'' +
-                ", email='" + email + '\'' +
-                ", address='" + address + '\'' +
-                ", intro='" + intro + '\'' +
-                ", icon='" + icon + '\'' +
-                ", money=" + money +
-                ", type='" + types + '\'' +
-                ", date='" + date + '\'' +
-                ", endData='" + endData + '\'' +
-                '}';
     }
 }

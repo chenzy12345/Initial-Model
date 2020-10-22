@@ -81,6 +81,16 @@
     </servlet-mapping>
 
     <servlet>
+        <description>农业企业类型信息操作管理</description>
+        <servlet-name>CompanyTypeServlet</servlet-name>
+        <servlet-class>com.ischoolbar.programmer.servlet.CompanyTypeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CompanyTypeServlet</servlet-name>
+        <url-pattern>/CompanyTypeServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
         <description>学生信息管理</description>
         <servlet-name>StudentServlet</servlet-name>
         <servlet-class>com.ischoolbar.programmer.servlet.StudentServlet</servlet-class>

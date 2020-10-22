@@ -55,7 +55,7 @@ public class CompanyDao extends BaseDao{
         return update(sql);
     }
     public Company getCompany(int id){
-        String sql = "select * from company where id = " + id;
+        String sql = "select *,type from company,c_type where company.typeid = c_type.id and id = " + id;
         Company company = null;
         ResultSet resultSet = query(sql);
         try {
@@ -72,6 +72,7 @@ public class CompanyDao extends BaseDao{
                 company.setMoney(resultSet.getDouble("money"));
                 company.setDate(resultSet.getString("date"));
                 company.setEndData(resultSet.getString("endData"));
+                company.setType(resultSet.getString("type"));
                 return company;
             }
         } catch (SQLException e) {
@@ -81,8 +82,8 @@ public class CompanyDao extends BaseDao{
         return company;
     }
     public List<Company> getCompanyList(Company company, Page page){
-        List<Company> ret = new ArrayList<Company>();
-        String sql = "select * from company ";
+        List<Company> ret = new ArrayList<>();
+        String sql = "select *,type from company,c_type where company.typeid = c_type.id ";
         if(!StringUtil.isEmpty(company.getName())){
             sql += "and name like '%" + company.getName() + "%'";
         }
@@ -90,7 +91,7 @@ public class CompanyDao extends BaseDao{
             sql += " and id = " + company.getId();
         }
         sql += " limit " + page.getStart() + "," + page.getPageSize();
-        ResultSet resultSet = query(sql.replaceFirst("and", "where"));
+        ResultSet resultSet = query(sql);
         try {
             while(resultSet.next()){
                 Company com = new Company();
@@ -105,6 +106,7 @@ public class CompanyDao extends BaseDao{
                 com.setMoney(resultSet.getDouble("money"));
                 com.setDate(resultSet.getString("date"));
                 com.setEndData(resultSet.getString("endData"));
+                com.setType(resultSet.getString("type"));
                 ret.add(com);
             }
         } catch (SQLException e) {
