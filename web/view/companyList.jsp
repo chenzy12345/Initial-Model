@@ -68,6 +68,28 @@
                     url: "CompanyTypeServlet?method=TypeList&t="+new Date().getTime()+"&from=combox",
                 });
             }
+
+            //下拉框通用属性
+            $("#edit_typeList").combobox({
+                width: "200",
+                height: "30",
+                valueField: "id",
+                textField: "type",
+                multiple: false, //不可多选
+                editable: false, //不可编辑
+                method: "post"
+            });
+
+            $("#edit_typeList").combobox({
+                url: "CompanyTypeServlet?method=TypeList&t="+new Date().getTime()+"&from=combox",
+                onLoadSuccess: function (){
+                    //默认选择第一条数据
+                    var data = $(this).combobox("getData");
+                    $(this).combobox("setValue",data[0].type);
+                }
+            });
+
+
             //设置分页控件
             var p = $('#dataList').datagrid('getPager');
             $(p).pagination({
@@ -278,6 +300,7 @@
                     $("#edit_address").textbox('setValue', selectRow.address);
                     $("#edit_intro").textbox('setValue', selectRow.intro);
                     $("#edit_money").textbox('setValue', selectRow.money);
+                    $("#edit_typeList").textbox('setValue',selectRow.type);
                     $("#edit_date").datebox('setValue', selectRow.date);
                     $("#edit_endData").datebox('setValue', selectRow.endData);
                     $("#edit_photo").attr("src", "CompanyIconServlet?method=getPhoto&cid="+selectRow.id+"&t="+new Date().getTime());
@@ -425,6 +448,10 @@
                 <td>企业注册资金:</td>
                 <td><input id="edit_money" style="width: 200px; height: 30px;" class="easyui-textbox" name="money" data-options="required:true, missingMessage:'请输入企业注册资金'" validType="number"/></td>
                 <td>(万元)</td>
+            </tr>
+            <tr>
+                <td>企业营业类型:</td>
+                <td><input id="edit_typeList" style="width: 200px; height: 30px;" class="easyui-textbox" name="type" /></td>
             </tr>
             <tr>
                 <td>企业成立时间:</td>

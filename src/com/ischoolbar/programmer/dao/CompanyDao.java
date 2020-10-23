@@ -29,6 +29,7 @@ public class CompanyDao extends BaseDao{
         sql += ",address = '" + company.getAddress() + "'";
         sql += ",intro = '" + company.getIntro() + "'";
         sql += ",money = " + company.getMoney();
+        sql += ",typeid = " + Integer.parseInt(company.getType());
         sql += ",date = '" + company.getDate() + "'";
         sql += ",endData = '" + company.getEndData() + "'";
         sql += " where id = " + company.getId();
@@ -36,7 +37,7 @@ public class CompanyDao extends BaseDao{
     }
     public boolean setCompanyPhoto(Company company) {
         // TODO Auto-generated method stub
-        String sql = "update company set icon = ? where id = ?";
+        String sql = "update company set icon = ? where company.id = ?";
         Connection connection = getConnection();
         try {
             PreparedStatement prepareStatement = connection.prepareStatement(sql);
@@ -55,7 +56,7 @@ public class CompanyDao extends BaseDao{
         return update(sql);
     }
     public Company getCompany(int id){
-        String sql = "select *,type from company,c_type where company.typeid = c_type.id and id = " + id;
+        String sql = "select *,type from company,c_type where company.typeid = c_type.id and company.id = " + id;
         Company company = null;
         ResultSet resultSet = query(sql);
         try {

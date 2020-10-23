@@ -70,6 +70,7 @@ public class CompanyServlet extends HttpServlet {
         double money = Double.parseDouble(request.getParameter("money"));
         String date = request.getParameter("date");
         String endDate = request.getParameter("endData");
+        String type = request.getParameter("type");
 
         Company company = new Company();
         company.setId(id);
@@ -82,6 +83,7 @@ public class CompanyServlet extends HttpServlet {
         company.setMoney(money);
         company.setDate(date);
         company.setEndData(endDate);
+        company.setType(type);
         CompanyDao companyDao = new CompanyDao();
         if(companyDao.editCompany(company)){
             try {
