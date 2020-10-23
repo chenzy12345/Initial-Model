@@ -70,7 +70,7 @@
             }
 
             //下拉框通用属性
-            $("#edit_typeList").combobox({
+            $("#edit_typeList, #add_typeList").combobox({
                 width: "200",
                 height: "30",
                 valueField: "id",
@@ -78,6 +78,16 @@
                 multiple: false, //不可多选
                 editable: false, //不可编辑
                 method: "post"
+            });
+
+
+            $("#add_typeList").combobox({
+                url: "CompanyTypeServlet?method=TypeList&t="+new Date().getTime()+"&from=combox",
+                onLoadSuccess: function (){
+                    //默认选择第一条数据
+                    var data = $(this).combobox("getData");
+                    $(this).combobox("setValue",data[0].type);
+                }
             });
 
             $("#edit_typeList").combobox({
@@ -392,8 +402,12 @@
             </tr>
             <tr>
                 <td>企业注册资金:</td>
-                <td><input id="add_money" style="width: 200px; height: 30px;" class="easyui-textbox" name="money" data-options="required:true, missingMessage:'请输入企业注册资金'" validType="number"/></td>
+                <td><input id="add_money" style="width: 200px; height: 30px;" class="easyui-textbox" name="money" data-options="required:true, missingMessage:'请输入企业注册资金'" validType="intOrFloat"/></td>
                 <td>(万元)</td>
+            </tr>
+            <tr>
+                <td>企业营业类型:</td>
+                <td><input id="add_typeList" style="width: 200px; height: 30px;" class="easyui-textbox" name="type" /></td>
             </tr>
             <tr>
                 <td>企业成立时间:</td>

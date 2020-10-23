@@ -17,7 +17,7 @@ public class CompanyDao extends BaseDao{
         sql += ",'" + company.getTele() + "','" + company.getEmail() + "'";
         sql += ",'" + company.getAddress() + "','" + company.getIntro() + "'";
         sql += ",'null'," + company.getMoney();
-        sql += ",'" + company.getDate() + "','" + company.getEndData() + "')";
+        sql += ",'" + company.getDate() + "','" + company.getEndData() + "'," + Integer.parseInt(company.getType()) +")";
         return update(sql);
     }
     public boolean editCompany(Company company) {
