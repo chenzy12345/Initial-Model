@@ -90,6 +90,9 @@ public class CompanyDao extends BaseDao{
         if(company.getId() != 0){
             sql += " and id = " + company.getId();
         }
+        if (!StringUtil.isEmpty(company.getType())){
+            sql += "and type like '%" + company.getType() + "%'";
+        }
         sql += " limit " + page.getStart() + "," + page.getPageSize();
         ResultSet resultSet = query(sql);
         try {
@@ -117,14 +120,17 @@ public class CompanyDao extends BaseDao{
     }
     public int getCompanyListTotal(Company company){
         int total = 0;
-        String sql = "select count(*)as total from company ";
+        String sql = "select count(*)as total from company,c_type where company.typeid = c_type.id ";
         if(!StringUtil.isEmpty(company.getName())){
             sql += "and name like '%" + company.getName() + "%'";
         }
         if(company.getId() != 0){
             sql += " and id = " + company.getId();
         }
-        ResultSet resultSet = query(sql.replaceFirst("and", "where"));
+        if (!StringUtil.isEmpty(company.getType())){
+            sql += "and type like '%" + company.getType() + "%'";
+        }
+        ResultSet resultSet = query(sql);
         try {
             while(resultSet.next()){
                 total = resultSet.getInt("total");

@@ -98,10 +98,12 @@ public class CompanyServlet extends HttpServlet {
                                 HttpServletResponse response) {
         // TODO Auto-generated method stub
         String name = request.getParameter("name");
+        String type = request.getParameter("type");
         Integer currentPage = request.getParameter("page") == null ? 1 : Integer.parseInt(request.getParameter("page"));
         Integer pageSize = request.getParameter("rows") == null ? 999 : Integer.parseInt(request.getParameter("rows"));
         Company company = new Company();
         company.setName(name);
+        company.setType(type);
         CompanyDao companyDao = new CompanyDao();
         List<Company> companyList = companyDao.getCompanyList(company,new Page(currentPage,pageSize));
         int total = companyDao.getCompanyListTotal(company);
